@@ -65,6 +65,9 @@ header {
 #seeMoreLink {
   color: $grouparoo-blue-gray;
 }
+.dropdown-menu {
+  padding: 1em;
+}
 
 #seeMoreLink:hover {
   color: black;
@@ -88,6 +91,10 @@ header {
   padding-left: 0em;
 }
 
+.dropdown-item {
+  height: 2em;
+}
+
 .dropdown-header {
   font-weight: 600;
   padding-left: 0em;
@@ -95,7 +102,7 @@ header {
 
 @media only screen and (min-width: 600px) {
   .solutionsNav {
-    min-width: 20em;
+    min-width: 25em;
     padding-bottom: 1em;
   }
 }
