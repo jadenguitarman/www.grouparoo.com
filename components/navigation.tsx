@@ -32,7 +32,7 @@ export default function Navigation() {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto" style={{ marginTop: 30 }}>
+            <Nav className="ml-auto" style={{ marginTop: 10 }}>
               <Nav.Link>
                 <Link href="/integrations">
                   <a className="nav-link" role="button">
@@ -203,45 +203,26 @@ export default function Navigation() {
                   </a>
                 </Link>
               </Nav.Link>
-              <Nav.Link className="d-md-none d-lg-block">
-                <div style={{ paddingTop: 4 }}>
-                  <iframe
-                    src="https://ghbtns.com/github-btn.html?user=grouparoo&repo=grouparoo&type=star&count=false"
-                    frameBorder="0"
-                    scrolling="0"
-                    width="65"
-                    height="20"
-                    title="GitHub"
-                  ></iframe>
-                </div>
-              </Nav.Link>
-
-              <Nav.Link>
-                <Link href="/blog">
-                  <a className="nav-link" role="button">
-                    Blog
-                  </a>
-                </Link>
-              </Nav.Link>
             </Nav>
-            <Button
-              variant="outline-light"
-              href="https://github.com/grouparoo/grouparoo"
-              size="sm"
-              className="col-sm-12 col-lg-1 mx-lg-1 mx-0 mt-3"
-            >
-              <FontAwesomeIcon
-                icon={["fab", "github"]}
-                size="xs"
-                className="d-lg-none d-xl-inline"
-              />{" "}
-              Github
-            </Button>
+            <Nav.Link className="d-md-none d-lg-block pl-0 col-sm-12">
+              <div style={{ paddingTop: 4 }} className="ml-0">
+                <iframe
+                  src="https://ghbtns.com/github-btn.html?user=grouparoo&repo=grouparoo&type=star&count=false"
+                  frameBorder="0"
+                  scrolling="0"
+                  width="65"
+                  className=""
+                  height="20"
+                  title="GitHub"
+                ></iframe>
+              </div>
+            </Nav.Link>
             <Button
               variant="primary"
               href="/docs/getting-started"
               size="sm"
-              className="col-sm-12 col-lg-2 mx-0 mr-lg-2 ml-lg-2 mt-3"
+              style={{ marginTop: 5, marginBottom: 20 }}
+              className="col-sm-12 col-md-2"
             >
               Get Started
             </Button>
