@@ -69,6 +69,11 @@ header {
 #seeMoreLink {
   color: $grouparoo-blue-gray;
 }
+
+#seeMoreLink:hover {
+  color: black;
+  font-weight: 400;
+}
 .dropdown-menu {
   padding: 1em;
 }
@@ -88,11 +93,6 @@ header {
 }
 .dropdown-item a:hover {
   color: black;
-}
-
-.dropdown-item {
-  height: 2em;
-  padding-left: 0em;
 }
 
 .dropdown-item {
