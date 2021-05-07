@@ -4,6 +4,9 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faProjectDiagram } from "@fortawesome/free-solid-svg-icons";
+import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
+import { faBalanceScaleLeft } from "@fortawesome/free-solid-svg-icons";
 import { faBatteryFull } from "@fortawesome/free-solid-svg-icons";
 import { faWrench } from "@fortawesome/free-solid-svg-icons";
 import { faChartLine } from "@fortawesome/free-solid-svg-icons";
@@ -17,6 +20,9 @@ library.add(
   faLink,
   faGithub,
   faProjectDiagram,
+  faArrowDown,
+  faArrowUp,
+  faBalanceScaleLeft,
   faBatteryFull,
   faWrench,
   faChartLine,
