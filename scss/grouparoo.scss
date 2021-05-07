@@ -71,7 +71,6 @@ header {
 }
 .dropdown-menu {
   padding: 1em;
-  border: red 2px solid;
 }
 
 #seeMoreLink:hover {
@@ -98,6 +97,7 @@ header {
 
 .dropdown-item {
   height: 2em;
+  padding-left: 0em;
 }
 
 .dropdown-header {
@@ -107,7 +107,7 @@ header {
 
 @media only screen and (min-width: 600px) {
   .solutionsNav {
-    min-width: 25em;
+    min-width: 20em;
     padding-bottom: 1em;
   }
 }
